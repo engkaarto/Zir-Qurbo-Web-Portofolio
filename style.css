@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #1e1e1e;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+p{
+    font-size: 1rem;
+    line-height: 1.1rem;
+    font-weight: 300;
+}
+.whole-container{
+    padding: 0 10vw;
+}
+
+/* ============ Navigation ============ */
+
+#navigation{
+    height: 100vh;
+}
+.navbar{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo-text{
+    font-weight: 600;
+    font-size: 2rem;
+}
+.logo-text:hover{
+    cursor: pointer;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2rem;
+}
+li{
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+}
+ul li a:hover{
+    background-color: #ee9a14;
+    color: white;
+    padding: 0.5rem 0.8rem;
+    border-radius: 1rem;
+    transition: 0.3s;
+}
+.btn{
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border: none;
+}
+.contact-btn{
+    padding: 0.5rem 1.5rem;
+    background-color: rgb(240, 156, 20);
+    color: white;
+    border-radius: 2.5rem;
+    font-weight: 500;
+}
+.contact-btn:hover{
+    box-shadow: 4px 4px 8px rgba(240,156,20,0.9);
+    cursor: pointer;
+}
+
+/* ============ Navigation Hero ============ */
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero-img{
+    width: 500px;
+}
+.hero-img img {
+    width: 100%;
+}
+.hero-text-container{
+    width: 500px;
+}
+.sub-title{
+    font-size: 2rem;
+    font-weight: 600;
+}
+.hero-title{
+    font-size: 4rem;
+    font-weight: 700;
+}
+.section-p{
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+}
+.btn2{
+    background-color: #ee9a14;
+    color: white;
+    border-radius: 2.5rem;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+}
+.btn2:hover{
+    box-shadow: 4px 4px 8px rgba(240,156,20,0.9);
+    cursor: pointer;
+    transition: 0.3s;
+}
+.social-media{
+    display: flex;
+    gap: 0.5rem;
+}
+.social-media-container{
+    border: #ee9a14 0.1rem solid;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bx{
+    color: #ee9a14;
+}
+.social-media-container:hover{
+    background-color: #ee9a14;
+    transition: 0.15s;
+}
+.bx:hover{
+    color: white;
+    transition: 0.15s;
+}
+.highlight{
+    color: #ee9a14;
+}
+.arrow{
+    box-shadow: 4px 4px 8px rgba(240,156,20,0.9);
+    font-size: 2rem;
+    color: white;
+    position: relative;
+    right: -80vw;
+    border: none;
+    border-radius: 2rem;
+}
+.arrow:hover{
+    color: #ee9a14;
+}
