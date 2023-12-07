@@ -6,12 +6,13 @@
 body{
     background-color: #1e1e1e;
     color: white;
-    font-family: 'Poppins', sans-serif;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Poppins', sans-serif;
+    font-family: Arial, Helvetica, sans-serif; */
 }
 p{
     font-size: 1rem;
-    line-height: 1.1rem;
+    line-height: 1.5rem;
     font-weight: 300;
 }
 .whole-container{
@@ -29,6 +30,7 @@ p{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 .logo-text{
     font-weight: 600;
@@ -170,7 +172,7 @@ ul li a:hover{
 
 #about{
     margin-top: 5rem;
-    height: 70vh;
+    /* height: 70vh; */
 }
 .container{
     display: flex;
@@ -199,7 +201,9 @@ ul li a:hover{
 }
 
 /* ============ Services Section ============ */
-
+#services{
+    margin-bottom: 5rem;
+}
 .section-title{
     font-size: 3rem;
     text-align: center;
@@ -215,7 +219,7 @@ ul li a:hover{
     margin-bottom: 2rem;
 }
 .card{
-    width: 300px;
+    /* width: 300px; */
     margin-top: 2rem;
     background-color: #2d2d2d;
     display: flex;
@@ -239,14 +243,23 @@ ul li a:hover{
     text-align: center;
 }
 .services-p{
-    margin-top: 0.2rem;
- text-align: center;
+    margin-top: 1rem;
+    text-align: center;
 }
 
 /* ============ Projects Section ============ */
+#projects{
+    background-color: #2d2d2d;
+    margin-bottom: 2rem;
+}
+.project-container{
+    padding: 0 10vw;
+    padding-bottom: 2rem;
+}
 .project-title{
     margin-top: 2rem;
     margin-bottom: 2rem;
+    padding-top: 2rem;
 }
 .project img{
     width: 100%;
@@ -304,7 +317,7 @@ ul li a:hover{
 #footer{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    height: 40vh;
+    /* height: 40vh; */
     background-color: #1a1a1a;
     padding-top: 2rem;
     padding-left: 10vw;
@@ -321,20 +334,24 @@ ul li a:hover{
     color: #ee9a14;
     margin-bottom: 1.5rem;
 }
+small{
+    margin-bottom: 1rem;
+}
 small a{
     text-decoration: none;
-    color: white;
+    color: rgb(214, 212, 212);
     font-size: 1rem;
     margin-top: 2rem;
 }
 small a:hover{
-    color: rgb(225, 223, 223);
-    border-bottom: rgb(225, 223, 223) solid 0.1rem;
+    color: #e3ab52;
+    border-bottom: #e3ab52 solid 0.1rem;
 }
 .footer-logo{
     color: #ee9a14;
     font-weight: 700;
 }
+
 
 /* ============ Subfooter Footer ============ */
 

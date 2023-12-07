@@ -1,0 +1,123 @@
+@media only screen and (max-width: 768px) {
+
+    .sub-title{
+        font-size: 1.5rem;
+    }
+    .hero-title{
+        font-size: 2.5rem;
+    }
+    .section-p{
+        margin-top: 1.5rem;
+    }
+    .hero-img{
+        width: 55%;
+    }
+    .text-container{
+        width: 45%;
+    }
+
+    /* About */
+
+    #about{
+        margin-top: 0;
+        margin-bottom: 3rem;
+    }
+    .about-img{
+        width: 50%;
+    }
+    .section-about-title{
+        font-size: 2rem;
+    }
+    .title{
+        font-size: 1.5rem;
+        color: #ee9a14;
+        margin-bottom: 0;
+    }
+    .about-p{
+        margin-top: 4px;
+    }
+
+    /* services */
+    .section-title{
+        font-size: 2rem;
+    }
+    .container-grid{
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+    .services-title{
+        margin-top: 10px;
+        font-size: 1.5rem;
+    }
+    .services-p{
+        margin-top: 4px;
+        text-align: center;
+    }
+  }
+  @media only screen and (max-width: 650px){
+    #footer{
+        grid-template-columns: 1fr 1fr;
+    }
+
+  }
+  @media only screen and (max-width: 500px){
+    #navigation{
+        height: fit-content;
+    }
+    .hero{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .hero-img{
+        width: 100%;
+    }
+    .text-container{
+        width: 100%;
+    }
+
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .about-img{
+        flex-basis: 100%;
+    }
+    .about-img img{
+        flex-basis: 100%;
+    }
+    .container-grid{
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    #footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .footer-logo{
+        color: #ee9a14;
+        font-weight: 700;
+        margin-bottom: 5rem;
+    }
+    .bxl-gmail,
+.bxs-phone-call{
+    font-size: 1.5rem;
+}
+.contact-link{
+    font-size: 1rem;
+}
+#sub-footer{
+   padding: 1rem;
+}
+.sub-footer-p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  }
